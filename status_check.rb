@@ -1,5 +1,5 @@
 class StatusCheck
-	def initialize(step_number = 0)
+	def initialize(step_number = -1)
 		@step_number = step_number
 
 	end
