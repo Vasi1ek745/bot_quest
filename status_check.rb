@@ -9,4 +9,10 @@ class StatusCheck
 	def step_number
 		@step_number
 	end
+	def check(user_text)
+	    case user_text
+	    when "/start"
+	    	@step_number
+	    end
+	end
 end
